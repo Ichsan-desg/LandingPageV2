@@ -1,0 +1,100 @@
+body {
+    background-color: navajowhite;
+}
+/*========================================================*/
+.container {
+    background-image: url(img/84252.jpg) ;
+    margin: auto;
+    width: 900px;
+    background-size: cover;
+}
+.nav {
+    background-color: rgba(156, 28, 92, 0.2);
+}
+/*=========================================================*/
+.nav a {
+    text-decoration: none;
+    color:gray;
+    padding-right: -20px;
+}
+.nav a:hover {
+   background-color: moccasin;
+   color: salmon;
+}
+.nav ul li {
+    display: block;
+}
+/*=========================================================*/
+.judul {
+    background-color: salmon; font-family: monospace;
+    padding-bottom: 1px; color: seashell;
+    padding-top: 7px;
+    padding-left: 20px;
+}
+.judul span{
+    color: snow;
+}
+/*=========================================================*/
+.hero {
+    height: 150px;
+    background-image: url(img/imgg.png);
+    background-size: cover;
+    background-position: 0 -100px;
+    border-top: solid wheat;
+    border-bottom: solid wheat;
+}
+/*===========================================================*/
+.isi h3 {
+    padding-left: 15px;
+    color: dimgray;
+}
+.isi p {
+    padding-left: 15px;
+    color: seashell;
+}
+.isi ol li {
+    color: seashell;
+}
+/*===========================================================*/
+.isi2 h3 {
+    padding-left: 15px; color: dimgray;
+}
+.tabel1 {
+    margin: left;
+    font-family: monospace;
+    color: gray;
+    width: 400px;
+    height: 10px;
+    table-layout: auto;
+    
+}
+
+.tabel1 tr td {
+    background: lightyellow;
+    color: gray;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+.tabel1, tr, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.tabel1 tr {
+    background-color: snow;
+}
+.no {
+    padding-left: 15px;
+    color: dimgray;
+}
+/*============================================================*/
+.foot footer {
+    background-color: salmon;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: seashell;
+}
+
